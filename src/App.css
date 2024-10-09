@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+nav {
+  border-bottom: 1px solid gray;
+  color: #111;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 20px 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.todo-form,
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+.todo-form h1,
+.todo-list h1 {
+  font-size: 32px;
+}
+.todo-list p{
+  /* color: gray; */
+  font-size: 24px;
+}
+.todo-form input {
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 10px 5px;
+  font-size: 20px;
+}
+.todo-form button {
+  background: #0d6efd;
+  color: #fff;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  width: fit-content;
+}
+.todo-list .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main{
+display: flex;
+flex-direction: row;
+gap: 10px;
+}
+.card {
+  border-radius: 8px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  font-size: 20px;
+  width: 200%;
+}
+/* Button styles */
+.button {
+  font: 100%;
+  background-color: #d60000; /* Green background */
+  border: none; /* Remove borders */
+  color: rgb(247, 0, 0); /* White text */
+  padding: 15px 32px; /* Add some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get the element to sit inline */
+  font-size:40%; /* Increase the font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Add transition for hover effects */
+  width: 30%;
+}
+
+/* Hover effects */
+.button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
